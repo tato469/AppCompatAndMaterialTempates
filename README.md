@@ -9,9 +9,26 @@ Download this project and extract everything to:
 Close and reopen Android Studio.
 
 ## Templates
-<img src="https://github.com/tato469/AppCompatTempates/blob/master/activities/ToolbarActivity/template_blank_activity.png" width="200"> Blank ToolBarActivity. 
 
-<img src="https://github.com/tato469/AppCompatTempates/blob/master/activities/ToolbarActivityWithFragment/template_blank_activity_fragment.png" width="200"> ToolBarActivity with fragment. 
+### Activities
+
+<table style="width:100%">
+  <tr>
+    <td><img src="https://github.com/tato469/AppCompatTempates/blob/master/activities/ToolbarActivity/template_blank_activity.png" width="200"></td>
+    <td><img src="https://github.com/tato469/AppCompatTempates/blob/master/activities/ToolbarActivityWithFragment/template_blank_activity_fragment.png" width="200"></td> 
+    <td><img src="https://github.com/tato469/AppCompatTempates/blob/master/activities/ToolbarActivityWithRecyclerView/template_recyclerview_activity.png" width="200"></td>
+  </tr>
+  <tr>
+    <td>Blank ToolBarActivity</td>
+    <td>ToolBarActivity with fragment</td> 
+    <td>ToolBarActivity with recyclerview</td>
+  </tr>
+</table>
+ 
+
+### Fragments
+
+<img src="https://github.com/tato469/AppCompatTempates/blob/master/other/FragmentWithRecyclerView/template_recyclerview_fragment.png" width="200"> Fragment with recyclerview. 
 
 
 ##Note
