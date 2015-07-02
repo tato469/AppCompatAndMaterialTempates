@@ -19,9 +19,9 @@ Close and reopen Android Studio.
     <td><img src="https://github.com/tato469/AppCompatTempates/blob/master/activities/ToolbarActivityWithRecyclerView/template_recyclerview_activity.png" width="200"></td>
   </tr>
   <tr>
-    <td><a href="./activities/ToolbarActivity">Blank ToolBarActivity</a></td>
-    <td><a href="./activities/ToolbarActivityWithFragment">ToolBarActivity with fragment</a></td> 
-    <td><a href="./activities/ToolbarActivityWithRecyclerView">ToolBarActivity with recyclerview</a></td>
+    <td><a href="./activities/ToolbarActivity">Blank ToolbarActivity</a></td>
+    <td><a href="./activities/ToolbarActivityWithFragment">ToolbarActivity with fragment</a></td> 
+    <td><a href="./activities/ToolbarActivityWithRecyclerView">ToolbarActivity with recyclerview</a></td>
   </tr>
 </table>
  
