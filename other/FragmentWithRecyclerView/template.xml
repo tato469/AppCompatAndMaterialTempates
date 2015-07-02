@@ -60,7 +60,7 @@
     <!-- 128x128 thumbnails relative to template.xml -->
     <thumbs>
         <!-- default thumbnail is required -->
-        <thumb>template_blank_activity_fragment.png</thumb>
+        <thumb>template_recyclerview_fragment.png</thumb>
     </thumbs>
 
     <globals file="globals.xml.ftl" />
