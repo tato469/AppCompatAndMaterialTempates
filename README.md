@@ -28,7 +28,14 @@ Close and reopen Android Studio.
 
 ### Fragments
 
-<img src="https://github.com/tato469/AppCompatTempates/blob/master/other/FragmentWithRecyclerView/template_recyclerview_fragment.png" width="200"> Fragment with recyclerview. 
+<table style="width:100%">
+  <tr>
+    <td><img src="https://github.com/tato469/AppCompatTempates/blob/master/other/FragmentWithRecyclerView/template_recyclerview_fragment.png" width="200"></td>
+  </tr>
+  <tr>
+    <td>Fragment with recyclerview</td>
+  </tr>
+</table>
 
 
 ##Note
