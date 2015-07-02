@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<template
+    format="3"
+    revision="1"
+    name="RecyclerView Fragment"
+    minApi="7"
+    minBuildApi="14"
+    description="Creates a RecyclerView Fragment.">
+
+    <category value="Fragment" />
+    <formfactor value="Mobile" />
+
+    <parameter
+        id="fragmentClass"
+        name="Fragment name"
+        type="string"
+        constraints="class|unique|nonempty"
+        help="The name of the model that you will be used" />
+
+    <parameter
+        id="fragmentLayoutName"
+        name="Fragment Layout Name"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="fragment_${classToResource(fragmentClass)}"
+        help="The name of the layout to create for the activity's content fragment"/>
+
+    <parameter
+        id="modelClass"
+        name="Object Kind"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Item"
+        help="Other examples are 'Person', 'Book', etc." />
+
+    <parameter
+        id="cardLayoutName"
+        name="Card layout name"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="card_${classToResource(modelClass)}"
+        default="fragment_main"
+        help="The name of the layout to create for the activity's content fragment"/>
+
+    <parameter
+        id="recylerAdapterClass"
+        name="RecyclerView Adapter"
+        type="string"
+        constraints="class|unique|nonempty"
+        suggest="${modelClass}Adapter"
+        help="The name of the recyclerView adapter" />
+
+    <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        default="com.mycompany.myapp" />
+
+    <!-- 128x128 thumbnails relative to template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>template_blank_activity_fragment.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
