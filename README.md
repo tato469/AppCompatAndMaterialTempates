@@ -1,4 +1,4 @@
-# AppCompatTempates
+# AppCompat and Material Tempates
 Updated and useful Android templates for Android Studio
 
 ## Manual installation
