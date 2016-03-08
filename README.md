@@ -2,7 +2,7 @@
 Useful Android templates for Android Studio
 
 ### Without maintenance!
-These templates are now out of maintenance.
+Since Android Studio included their own materials templates, these templates are now out of maintenance.
 
 ## Manual installation
 Download this project and extract everything to:
