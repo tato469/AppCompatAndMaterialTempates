@@ -1,5 +1,8 @@
 # AppCompat and Material Tempates
-Updated and useful Android templates for Android Studio
+Useful Android templates for Android Studio
+
+### Without maintenance
+These templates are now out of maintenance.
 
 ## Manual installation
 Download this project and extract everything to:
