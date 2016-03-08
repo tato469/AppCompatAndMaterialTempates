@@ -1,7 +1,7 @@
 # AppCompat and Material Tempates
 Useful Android templates for Android Studio
 
-### Without maintenance
+### Without maintenance!
 These templates are now out of maintenance.
 
 ## Manual installation
